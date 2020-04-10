@@ -24,14 +24,16 @@ head.classList.add('header')
 dates.classList.add('date')
 temperature.classList.add('temp')
 
+
 const event = new Date();
 dates.textContent = event
 title.textContent = 'Lambda Times'
-temperature.textContent = '98deg'
+temperature.textContent = 98 
 
 head.appendChild(dates)
 head.appendChild(title)
 head.appendChild(temperature)
+
 
 return head
 
